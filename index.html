@@ -66,14 +66,45 @@
                 
                 <h2>Projects</h2>
                 <p>
-                  I'm a data science lover, actively honing my analytical skills to enhance decision-making in business strategies..
+                  I'm a data science lover, actively honing my analytical skills to enhance decision-making in business strategies.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      
-      <tr onmouseout="cbs_stop()" onmouseover="cbs_start()" bgcolor="#F5F5F5">
+ 
+
+       <tr onmouseout="House_stop()" onmouseover="House_start()" bgcolor="#F5F5F5">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='image/House_logo.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function House_start() {
+              document.getElementById('House_logo').style.opacity = "1";
+            }
+
+            function House_stop() {
+              document.getElementById('House_logo').style.opacity = "0";
+            }
+            House_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="data/Project_Kaggle_House Price.html">
+            <span class="papertitle">Kaggle Competition: House Price Prediction</span>
+          </a>
+          <br>
+          Dec, 2023
+          <br>
+          <p>
+          Executed end-to-end data mining for house price prediction. Employed PCA for dimension reduction, Lasso for feature selection, and fine-tuned XGBoost hyperparameters. A comprehensive approach for accurate and efficient modeling. 
+          </p>
+        </td>
+      </tr>
+
+
+      <tr onmouseout="cbs_stop()" onmouseover="cbs_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <img src='image/cbs_logo.jpeg' width="160">
@@ -103,10 +134,10 @@
       </tr>
 
 
-       <tr onmouseout="jobsearch_stop()" onmouseover="jobsearch_start()">
+       <tr onmouseout="jobsearch_stop()" onmouseover="jobsearch_start()" bgcolor="#F5F5F5">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <img src='image/jobsearch_logo.jpeg' width="160">
+            <img src='image/jobsearch_logo.png' width="160">
           </div>
           <script type="text/javascript">
             function jobsearch_start() {
@@ -132,8 +163,72 @@
         </td>
       </tr>
 
+      <tr onmouseout="Cafe_stop()" onmouseover="cafe_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='image/Cafe_logo.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function Cafe_start() {
+              document.getElementById('Cafe_logo').style.opacity = "1";
+            }
+
+            function Cafe_stop() {
+              document.getElementById('Cafe_logo').style.opacity = "0";
+            }
+            Cafe_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="data/Project_Managing Data_Presentation.pdf">
+            <span class="papertitle">Discover Café Tailored to User Preferences: Design and Implement an ETL Pipeline</span>
+          </a>
+          <br>
+          April, 2023
+          <br>
+          <p>
+          Crafted a personalized café search engine in Python, leveraging the Google Places API and PostgreSQL. Integrated Spark for advanced attribute querying and incorporated Flask for a dynamic user interface, allowing users to find their ideal spot based on preferences, with real-time customization. 
+          </p>
+          <a href="https://github.com/powenhsu/BuildASearchEngineForOptimalCafe">Demo</a>  
+          </p>
+        </td>
+      </tr>
+
       
-      <tr onmouseout="HolidayInn_stop()" onmouseover="HolidayInn_start()" bgcolor="#F5F5F5">
+      <tr onmouseout="Elon_stop()" onmouseover="Elon_start()" bgcolor="#F5F5F5">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='image/Elon_logo.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function Elon_start() {
+              document.getElementById('Elon_logo').style.opacity = "1";
+            }
+
+            function Elon_stop() {
+              document.getElementById('Elon_logo').style.opacity = "0";
+            }
+            Elon_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="data/Project_R_Elons Tweets to Tesla Stock Price_Presentation.pdf">
+            <span class="papertitle">Elon’s Tweet and Tesla Stock Price: A Sentiment Analysis and Time Series Forecasting in R</span>
+          </a>
+          <br>
+          April, 2023
+          <br>
+          <p>
+          Exploring market dynamics through sentiment analysis reveals the surprising influence of Elon Musk's tweets on Tesla stock prices. Regardless of content tone, evidence shows Elon's tweets significantly impact Tesla's stock, uncovering intriguing insights into market behavior. 
+          </p>
+          <a href="data/Project_R_Elons Tweets to Tesla Stock Price_Report.pdf">Report</a> &nbsp;|&nbsp;
+          <a href="data/Project_R_Elons Tweets to Tesla Stock Price_Code.html">Code</a>  
+          </p>
+        </td>
+      </tr>
+
+      
+      <tr onmouseout="HolidayInn_stop()" onmouseover="HolidayInn_start()" >
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <img src='image/HolidayInn_logo.jpeg' width="160">
@@ -163,7 +258,7 @@
       </tr>
 
 
-       <tr onmouseout="Hinge_stop()" onmouseover="Hinge_start()" >
+       <tr onmouseout="Hinge_stop()" onmouseover="Hinge_start()" bgcolor="#F5F5F5">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <img src='image/Hinge_logo.png' width="160">
@@ -192,10 +287,40 @@
         </td>
       </tr>
 
+
+       <tr onmouseout="Hackathon_stop()" onmouseover="Hackathon_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='image/Hackathon_logo.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function Hackathon_start() {
+              document.getElementById('Hackathon_logo').style.opacity = "1";
+            }
+
+            function Hackathon_stop() {
+              document.getElementById('Hackathon_logo').style.opacity = "0";
+            }
+            Hackathon_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="data/Project_Amazon Hackathon.pdf">
+            <span class="papertitle">Amazon Hackathon Competition: Advertising Strategy and Business Model Optimization</span>
+          </a>
+          <br>
+          Oct, 2022
+          <br>
+          <p>
+          Unleashing the Power of Data to Optimize Advertising Strategy. Delve into innovative solutions, strategic insights, and data-driven approaches to propel advertising effectiveness and drive results. Secured Top 10 and Honorable Mention in the Amazon Hackathon Competition.
+          </p>
+        </td>
+      </tr>
+
             
           <table width="100%" align="right" border="0" cellspacing="0" cellpadding="20"><tbody>
                 <p style="text-align:right;font-size:small;">
-                  Template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                  <!--Template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron.</a>-->
                 </p>
               </td>
             </tr>
